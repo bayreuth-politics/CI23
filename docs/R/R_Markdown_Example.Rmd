@@ -1,0 +1,151 @@
+---
+title: "R Markdown Example"
+author: "Author: You"
+date: "27 April 2022"
+output: pdf_document
+header-includes:
+   - \usepackage{dcolumn} 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment=NA)
+```
+
+## R Markdown
+
+### Subheadline
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## For example, you can plot code and output when  you run a regression
+
+```{r}
+regression <- lm(dist ~ speed, data=cars)
+summary(regression)
+```
+
+We can also display regression output in a more presentable format, for instance by using additional packages such as ```stargazer```.
+
+
+```{r}
+library(stargazer)
+stargazer(regression, title="Results", align=TRUE, type="text")
+```
+
+
+
+Or - particularly if you want to produce a pdf-file, we can directly print our regression output in Latex format:
+
+```{r, results = "asis"}
+stargazer(regression, title='Results', 
+          covariate.labels = c("Speed", "(Intercept)"), dep.var.labels  = "Distance",
+          align=TRUE, type="latex")
+```
+
+\vspace{2cm}
+
+Let's add some more space before this paragraph.
+
+You can also include formulae using math mode the same way as you would do in Latex proper: 
+
+You can include it in text $E = mc^{2}$. Or, specify that your formula is printed in a separate line:
+
+$$ Y = X^{2} $$
+
+\vspace{2cm}
+
+You can also include raw Latex code. If you run into problems doing so, you might try to embed Latex code in a Latex environment (see below).
+
+\vspace{2cm}
+
+\begin{center}
+\begin{tabular}{ll}
+This & is \\
+a & table \\
+\end{tabular}
+\end{center}
+
+
+```{=latex}
+\begin{center}
+\begin{tabular}{ll}
+This & is \\
+a & table \\
+\end{tabular}
+\end{center}
+```
+
+\newpage 
+
+# Why R Markdown?
+
+
+The advantage of R Markdown is that it easily combines text, R code and R output - in the exact same way you would be seeing it in the RStudio console.
+
+We use R Markdown to produce the html files we work with  in class. The great thing about Markdown is that you can produce a pdf file, html file or even slides. You can easily specify the output document type using the `output` option in the header.
+
+
+## For example, you can plot code and output
+
+```{r}
+summary(cars)
+```
+
+
+Or, alternatively, you might just want to plot the code but hide the output if it doesn't add anything to your response.
+
+
+```{r, message=FALSE}
+library(stargazer)
+```
+
+
+In a similar way, you can hide the code and only show results:
+
+
+```{r, echo=FALSE}
+summary(cars)
+```
+
+
+Finally, you can also hide results using the _results='hide'_ option. 
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+\
+\
+\ 
+
+**Important:** The chunk just below the header (which will disappear in your output file) allows you to specify global options. That means that you can specify options that will be applied to *all* chunks of code in your document. This comes in handy when you want to turn off warning messages or comments. You could, for instance, specify the following options:
+\
+
+`knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE,
+	comment = NA
+)`
+
+\newpage
+
+# R Markdown Reference Guide and Tutorial
+
+You can find more commands [\textcolor{blue}{in this R Markdown reference guide.}](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.156642171.1542584868.1612471345-118280016.1612471345)
+
+
+Moreover, there's a great tutorial available on [\textcolor{blue}{RStudio.Cloud}](https://rmarkdown.rstudio.com/lesson-1.html)
