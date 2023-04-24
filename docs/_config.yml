@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Causal Inference Spring 2022
+title: Causal Inference Spring 2023
 subtitle: University of Bayreuth
-email: kenneth.stiller@politics.ox.ac.uk
+email: kenneth.stiller@uni-bayreuth.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Here you find course materials, notes and data for the Causal Inference course at the University of Bayreuth in Spring/Summer Term 2022.
-baseurl: "/CI22" # the subpath of your site, e.g. /blog
+  Here you find course materials, notes and data for the Causal Inference course at the University of Bayreuth in Spring/Summer Term 2023.
+baseurl: "/CI23" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
