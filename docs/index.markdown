@@ -14,8 +14,7 @@ This is the page of the Causal Inference course in Spring Term 2023 at the Unive
 
 ## Labs
 
-	S 6 (GWIIU1U1.09)
-**Thursday:** 12pm - 2pm - 	S 6 (GWIIU1U1.09).  
+**Thursday:** 12pm - 2pm - S 6 (GWIIU1U1.09).  
 
 ## Drop-In Sessions
 
