@@ -30,6 +30,6 @@ Here you can find the script we used in this week's lab as well as the extended 
 [Extended Markdown Code](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/R/R_Markdown_Example.Rmd){: .btn .btn-blue }
 [Extended PDF Output](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/R/R_Markdown_Example.pdf){: .btn .btn-red }
 
-__For MAC users: You have two options to load the file: 1. Find the *full* path of the csv file. Second, copy the output of getwd() - this is your current working directory - and paste the csv file to this directory. Do let me know if you encounter any problems.__
+__For MAC users: You have two options to load the file: First, find the *full* path of the csv file. Second, copy the output of getwd() - this is your current working directory - and paste the csv file to this directory. Do let me know if you encounter any problems.__
 
 
