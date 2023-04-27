@@ -26,7 +26,7 @@ __R Script & Extended Markdown Example__
 
 Here you can find the script we used in this week's lab as well as the extended markdown example file.
 
-[Lab 1 - R Script](https://github.com/bayreuth-politics/CI23/raw/gh-pages/docs/R/R_Introduction.R){: .btn .btn-green }
+[Lab 1 - R Script](https://github.com/bayreuth-politics/CI23/raw/gh-pages/docs/R/CI23_Lab1_RMarkdown.R){: .btn .btn-green }
 [Extended Markdown Code](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/R/R_Markdown_Example.Rmd){: .btn .btn-blue }
 [Extended PDF Output](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/R/R_Markdown_Example.pdf){: .btn .btn-red }
 
