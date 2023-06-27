@@ -15,3 +15,5 @@ nav_order: 2
 [Lecture 6](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/lectures/CI_23_Slides_Week6.pdf){: .btn .btn-blue .mr-3}
 
 [Lecture 7](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/lectures/CI_23_Slides_Week7.pdf){: .btn .btn-blue .mr-3}
+[Lecture 8](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/lectures/CI_23_Slides___Bayreuth-8.pdf){: .btn .btn-blue .mr-3}
+[Lecture 9](https://raw.githubusercontent.com/bayreuth-politics/CI23/main/docs/lectures/CI_23_Slides___Bayreuth-9.pdf){: .btn .btn-blue .mr-3}
