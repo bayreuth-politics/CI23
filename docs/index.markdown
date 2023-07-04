@@ -14,7 +14,7 @@ This is the page of the Causal Inference course in Spring Term 2023 at the Unive
 
 ## Labs
 
-**Thursday:** Final Session on 4/7/23 online. Access [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjZhODAwYzktYTRiMy00OGMzLTkxM2YtYzI0Mjg5NjY2ZGRi%40thread.v2/0?context=%7b%22Tid%22%3a%2254d63e24-ac6d-4c5e-a8d6-ba978a0b286e%22%2c%22Oid%22%3a%228b4c4600-7d30-4656-8e36-810bca1dcc9f%22%7d)
+**Final Session on 4/7/23 online. Access [here!](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjZhODAwYzktYTRiMy00OGMzLTkxM2YtYzI0Mjg5NjY2ZGRi%40thread.v2/0?context=%7b%22Tid%22%3a%2254d63e24-ac6d-4c5e-a8d6-ba978a0b286e%22%2c%22Oid%22%3a%228b4c4600-7d30-4656-8e36-810bca1dcc9f%22%7d)**
 
 
 ## Drop-In Sessions
